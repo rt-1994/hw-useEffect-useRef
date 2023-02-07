@@ -22,7 +22,7 @@ const Card = () => {
 
     return (
         <div className={styles.content}>
-            <h1>Home work(useState, useEffect)</h1>
+            <h1>Home work(useState, useEffect, useRef)</h1>
             <div className={styles.contentBlock}>
                 <div className={styles.card}
                      onScroll={(event) => setValue(Math.floor(event.target.scrollTop * 100 / 420))}>
