@@ -1,10 +1,11 @@
 .content{
   height: 100vh;
+  min-height: 600px;
   width: 800px;
   margin: 0 auto;
   background: radial-gradient( #FFFFFF 0%, #FFFFFF 8%, #EAE1E1 10%, #FFFFFF 18%, #EAE1E1 20%, #FFFFFF 28%, #EAE1E1 30%, #FFFFFF 38%, #EAE1E1 40%, #FFFFFF 48%, #EAE1E1 50%, #FFFFFF 58%, #EAE1E1 60%, #FFFFFF 68%, #EAE1E1 70%, #FFFFFF 78%, #EAE1E1 80%, #FFFFFF 88%, #EAE1E1 90%, #FFFFFF 100%) no-repeat;
-  background-position: -800px 0;
-  background-size: 200% 200%;
+  background-position: -600px 0;
+  background-size: 180% 200%;
   padding: 30px;
 }
 
@@ -20,14 +21,13 @@
   width: 500px;
   height: 400px;
   border-radius: 25px;
-  box-shadow: 0 0 15px 3px silver;
   padding: 10px;
   overflow-y: scroll;
+  box-shadow: 0 0 15px 3px silver, -2px -2px 2px 0px #545353 inset, 2px 2px 2px 0px #FFFFFF inset;
 
   &::-webkit-scrollbar {
     width: 20px;
   }
-
   &::-webkit-scrollbar-track {
     width: 0;
     display: none;
@@ -42,8 +42,6 @@
   &::-webkit-scrollbar-thumb:hover {
     background: #dad7d7;
   }
-
-
 }
 
 .card-content{
@@ -78,8 +76,6 @@
   width: 100px;
   height: 100px;
   transform: rotate(-90deg);
-
-
 }
 .bar{
   fill: transparent;
